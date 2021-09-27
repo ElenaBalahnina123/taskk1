@@ -1,16 +1,17 @@
 package Animals;
 
-public class Animal {
+public abstract class Animal {
 
-    void run(int length){
+    public String name;
 
+    public String run(int distance){
+
+        return null;
     }
 
-    void swim(int length){
+    public String swim(int distance){
 
+        return null;
     }
-
-
-
 
 }
